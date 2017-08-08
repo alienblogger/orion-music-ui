@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border: 1px solid #ddd;
+	border-radius: 1px;
+	height: 300px;
+	width: 800px;
+	box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.1);
+	display: flex;
+}
+
+.sub-view {
+	background: #eee;
+	border-right: 1px solid #ddd;
+	height: 100%;
+	width: 60%;
+}
+
+.sub-view .header {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sub-view .header h3 {
+	color: #777;
+}
+
+.main-view {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-view .view-header {
+	background: Red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.album-art {
+	margin: 1em;
+	height: 82px;
+	width: 82px;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+.track-details {
+	margin-left: 1em;
+	width: 90px;
+	color: #555;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.track-name {
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.album-name {
+	font-size: 0.9em;
+}
+
+.main-view .view-body {
+	background: blue;
+}
