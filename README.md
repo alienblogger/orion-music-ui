@@ -9,3 +9,8 @@ I'll take you there -> [Click On This ](https://alienblogger.github.io/orion-mus
 ### How long before the player releases ?
 
 patience , human, *PATIENCE* 
+
+
+### Are you going to release the Dark One or the Light one?
+
+No god damn idea... 
