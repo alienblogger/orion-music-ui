@@ -1,50 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Orion</title>
-	<link rel="stylesheet" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-	<div class="container">
-		<div class="sub-view">
-			<div class="header">
-				<h3>All Tracks</h3>
-			</div>
-			<div class="body">
-				
-			</div>
-		</div>
-		<div class="main-view">
-			<div class="view-header">
-				<div class="album-art"></div>
-				<div class="track-details">
-					<div class="track-name">Track</div>
-					<div class="album-name">Album</div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Orion</title>
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/dark.css">
+	</head>
+	<body>
+		<header>
+			<a href="#dark-section">Dark Version</a>
+			<a href="#light-section">Light Version</a>
+		</header>
+		<section id="light-section" >
+			<div class="container light-theme">
+				<div class="sub-view">
+					<div class="header">
+						<h3>Tracks</h3>
+					</div>
+					<div class="body">
+						
+					</div>
+				</div>
+				<div class="main-view">
+					<div class="view-header">
+						<div class="album-art"></div>
+						<div class="track-details">
+							<div class="track-name">Track</div>
+							<div class="album-name">Album</div>
+						</div>
+					</div>
+					<div class="view-body">
+						<div class="seek">
+							<div class="seek-background">
+								<div class="seek-progress"></div>
+							</div>
+						</div>
+						<div class="player-controls">
+							<div class="previous">
+								<i class="fa fa-chevron-left"></i>
+							</div>
+							<div class="play">
+								<i class="fa fa-play"></i>
+							</div>
+							<div class="next">
+								<i class="fa fa-chevron-right"></i>
+							</div>
+						</div>
+						<div class="volume"></div>
+					</div>
+					
 				</div>
 			</div>
-			<div class="view-body">
-			<div class="seek">
-				<div class="seek-background">
-					<div class="seek-progress"></div>
+		</section>
+		<section id="dark-section">
+			<div class="container dark-theme">
+				<div class="sub-view ">
+					<div class="header">
+						<h3 class="red-fg">Tracks</h3>
+					</div>
+					<div class="body">
+						
+					</div>
 				</div>
-			</div>
-			<div class="player-controls">
-				<div class="previous">
-					<i class="fa fa-chevron-left"></i>
+				<div class="main-view ">
+					<div class="view-header">
+						<div class="album-art"></div>
+						<div class="track-details">
+							<div class="track-name">Track</div>
+							<div class="album-name">Album</div>
+						</div>
+					</div>
+					<div class="view-body">
+						<div class="seek">
+							<div class="seek-background">
+								<div class="seek-progress"></div>
+							</div>
+						</div>
+						<div class="player-controls">
+							<div class="previous">
+								<i class="fa fa-chevron-left"></i>
+							</div>
+							<div class="play">
+								<i class="fa fa-play"></i>
+							</div>
+							<div class="next">
+								<i class="fa fa-chevron-right"></i>
+							</div>
+						</div>
+						<div class="volume"></div>
+					</div>
+					
 				</div>
-				<div class="play">
-					<i class="fa fa-play"></i>
-				</div>
-				<div class="next">
-					<i class="fa fa-chevron-right"></i>
-				</div>
-			</div>
-			<div class="volume"></div>
-			</div>
-			
-		</div>
-	</div>	
-</body>
-</html>
+			</div></section>
+			<script src="./js/zenscroll.js"></script>
+			<script>
+				(function(){
+					zenscroll.setup(200);
+				})();
+			</script>
+		</body>
+	</html>

@@ -1,0 +1,37 @@
+.dark-theme {
+}
+
+.dark-theme .container {
+	border: 1px solid #555;
+}
+
+.dark-theme .sub-view {
+	background: #333;
+	border-right: #444;
+}
+
+.dark-theme .sub-view .header {
+	border-bottom: 1px solid #444;
+}
+
+.dark-theme .sub-view .header h3 {
+	color: #777;
+}
+
+.dark-theme .main-view {
+	background: #222;
+}
+
+.dark-theme .track-name {
+	color: #ff1414;
+}
+.dark-theme .album-name {
+	color: white;
+}
+.dark-theme .seek-progress {
+	background: #ff1414;
+}
+
+.dark-theme .player-controls > div:hover {
+	color: white;
+}
